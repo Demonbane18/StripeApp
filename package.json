@@ -1,10 +1,9 @@
 {
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "start": "node server.js"
+    "serve": "vite preview"
   },
   "dependencies": {
     "@stripe/stripe-js": "^1.16.0",
