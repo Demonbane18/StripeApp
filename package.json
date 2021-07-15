@@ -2,7 +2,6 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
     "start": "node server.js",
     "build": "vite build",
     "serve": "vite preview"
